@@ -1,0 +1,72 @@
+:root {
+    --accent: #f25f22;
+    --dark: #222;
+    --light: #f9f9f9;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.joke-card {
+    background: var(--light);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.icon-wrapper img {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: var(--dark);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.joke-text {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-style: italic;
+    color: #444;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.btn-joke {
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-joke:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(242, 95, 34, 0.4);
+}
+
+.btn-joke:active {
+    transform: translateY(0);
+}

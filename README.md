@@ -27,4 +27,13 @@ Neste desafio, desenvolvi habilidades críticas para o desenvolvimento web:
 2. Abra o arquivo `index.html`.
 3. Clique no botão "Próximo Fato" para se divertir com as piadas.
 
-![Demonstração do projeto.] <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/66b872a9-46bf-4f27-975b-cd355cea3b4f" />
+<center>
+  
+# 📸 Visualização do Projeto
+  
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/82f37a5b-a488-4e73-a98d-fd4141ba3221" />
+
+  
+</center>
+
+---
